@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vibrato en el Canto · Musicala</title>
+  <meta name="description" content="Guía interactiva de Musicala para entender qué es el vibrato, escucharlo, practicarlo con ejercicios guiados y medirlo con el micrófono." />
+  <link rel="icon" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Musicala · Inicio">
+      <img src="logo.png" alt="Musicala" />
+      <span class="brand-divider"></span>
+      <span class="brand-title">Vibrato en el Canto</span>
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#que-es">Qué es</a>
+      <a href="#escucha">Escucha</a>
+      <a href="#bases">Bases</a>
+      <a href="#practica">Ejercicios</a>
+      <a href="#medidor">Medidor</a>
+      <a href="#plan">Plan</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Canto · Técnica vocal</p>
+      <h1>El vibrato no se fabrica: <span class="grad-text">se permite.</span></h1>
+      <p class="lead">
+        Aquí vas a entender qué es el vibrato, escucharlo, construir las bases que lo hacen posible
+        y practicarlo paso a paso con ejercicios guiados, tono de referencia y un medidor con tu micrófono.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#practica">Empezar a practicar</a>
+        <a class="button secondary" href="#que-es">Entender primero</a>
+      </div>
+      <ol class="route" aria-label="Ruta de aprendizaje">
+        <li><span>1</span>Entiende</li>
+        <li><span>2</span>Escucha</li>
+        <li><span>3</span>Prepara</li>
+        <li><span>4</span>Practica</li>
+        <li><span>5</span>Mide</li>
+      </ol>
+    </div>
+
+    <div class="hero-card" aria-hidden="true">
+      <svg viewBox="0 0 520 220" class="hero-wave">
+        <defs>
+          <linearGradient id="brandGrad" x1="0" x2="1">
+            <stop offset="0" stop-color="#0C41C4" />
+            <stop offset="0.5" stop-color="#5729FF" />
+            <stop offset="1" stop-color="#CE0071" />
+          </linearGradient>
+        </defs>
+        <line x1="0" y1="110" x2="520" y2="110" class="hero-center" />
+        <path class="hero-path" d="M0 110 L80 110 C100 110 105 80 125 80 S150 140 170 140 S195 70 215 70 S240 150 260 150 S285 70 305 70 S330 150 350 150 S375 70 395 70 S420 150 440 150 S465 70 485 70 S510 110 520 110" />
+        <text x="10" y="196" class="hero-label">nota recta</text>
+        <text x="250" y="196" class="hero-label">… y luego aparece el vibrato</text>
+      </svg>
+      <div class="hero-stats">
+        <div><strong>5–7</strong><span>ondas por segundo</span></div>
+        <div><strong>±½</strong><span>semitono aprox.</span></div>
+        <div><strong>0</strong><span>tensión forzada</span></div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- QUÉ ES -->
+    <section id="que-es" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">1 · Entiende</p>
+        <h2>¿Qué es el vibrato?</h2>
+        <p>
+          Es una <strong>oscilación pequeña, regular y natural de la afinación</strong> alrededor de una nota.
+          La voz sube y baja levemente, varias veces por segundo, sin dejar de “ser” la misma nota.
+          Aparece cuando la voz está libre: buena respiración, garganta relajada y un equilibrio sano en la laringe.
+        </p>
+      </div>
+
+      <div class="cards four">
+        <article class="card">
+          <span class="card-num">Hz</span>
+          <h3>Velocidad</h3>
+          <p>Cuántas ondas hay por segundo. Lo habitual en un vibrato sano está entre <strong>5 y 7 por segundo</strong>.</p>
+        </article>
+        <article class="card">
+          <span class="card-num">±</span>
+          <h3>Amplitud</h3>
+          <p>Cuánto sube y baja la afinación. Normalmente <strong>menos de medio tono</strong> hacia cada lado.</p>
+        </article>
+        <article class="card">
+          <span class="card-num">≈</span>
+          <h3>Regularidad</h3>
+          <p>Las ondas son parejas, como un péndulo. Si son irregulares, suele haber tensión o falta de apoyo.</p>
+        </article>
+        <article class="card">
+          <span class="card-num">◎</span>
+          <h3>Centro</h3>
+          <p>El oído percibe la nota central. El vibrato <strong>adorna</strong> la afinación, no la reemplaza.</p>
+        </article>
+      </div>
+
+      <div class="callout">
+        <strong>Idea clave:</strong> el vibrato es una consecuencia, no un truco. Si la respiración es estable y no hay
+        tensión de más, la voz tiende a vibrar sola. Por eso casi todo el trabajo es <em>quitar lo que lo impide</em>.
+      </div>
+
+      <div class="split">
+        <div class="panel ok">
+          <h3>Señales de un vibrato sano</h3>
+          <ul class="check-list">
+            <li>Suena parejo y “respira” con la nota.</li>
+            <li>La garganta se siente libre, sin ardor ni cansancio.</li>
+            <li>Puedes cantar la misma nota recta o con vibrato a voluntad.</li>
+            <li>La mandíbula, la lengua y el abdomen no se mueven al ritmo del vibrato.</li>
+          </ul>
+        </div>
+        <div class="panel warn">
+          <h3>Lo que <u>no</u> es vibrato</h3>
+          <ul class="warn-list">
+            <li><strong>Mandíbula o lengua que tiemblan</strong> para imitarlo.</li>
+            <li><strong>“Ja-ja-ja”</strong> empujando el abdomen o cortando el aire.</li>
+            <li><strong>Trémolo / balido:</strong> muy rápido y estrecho, nace de la tensión.</li>
+            <li><strong>Bamboleo (wobble):</strong> muy lento y ancho, la nota pierde el centro; suele venir de cansancio o exceso de presión.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESCUCHA -->
+    <section id="escucha" class="section tinted">
+      <div class="section-heading">
+        <p class="eyebrow">2 · Escucha</p>
+        <h2>Laboratorio de oído</h2>
+        <p>
+          Antes de cantarlo, entrénate para reconocerlo. Escucha cada ejemplo y luego juega con la velocidad y la amplitud
+          para oír cuándo suena natural y cuándo suena a trémolo o a bamboleo.
+        </p>
+      </div>
+
+      <div class="listen-layout">
+        <div class="presets" role="group" aria-label="Ejemplos de sonido">
+          <button class="preset" data-rate="0" data-depth="0">
+            <strong>Nota recta</strong><span>Sin vibrato. Tu punto de partida.</span>
+          </button>
+          <button class="preset good" data-rate="5.8" data-depth="40">
+            <strong>Vibrato sano</strong><span>≈ 5,8 por segundo · amplitud moderada</span>
+          </button>
+          <button class="preset bad" data-rate="9" data-depth="15">
+            <strong>Trémolo</strong><span>Demasiado rápido y estrecho</span>
+          </button>
+          <button class="preset bad" data-rate="3" data-depth="110">
+            <strong>Bamboleo</strong><span>Demasiado lento y ancho</span>
+          </button>
+          <button class="preset" data-rate="5.5" data-depth="40" data-delayed="1">
+            <strong>Recto → vibrato</strong><span>Así suele aparecer al final de una nota</span>
+          </button>
+        </div>
+
+        <div class="synth-card">
+          <canvas id="synthCanvas" width="900" height="220" aria-label="Forma de la oscilación"></canvas>
+          <div class="synth-controls">
+            <label>Velocidad <output id="rateOut">5.8 Hz</output>
+              <input id="rateRange" type="range" min="0" max="10" step="0.1" value="5.8" />
+            </label>
+            <label>Amplitud <output id="depthOut">40 cents</output>
+              <input id="depthRange" type="range" min="0" max="150" step="1" value="40" />
+            </label>
+            <label>Nota
+              <select id="synthNote" class="note-select"></select>
+            </label>
+          </div>
+          <div class="synth-footer">
+            <button class="button primary" id="synthPlayBtn">▶ Escuchar</button>
+            <p id="synthVerdict" class="verdict">Elige un ejemplo o mueve los controles.</p>
+          </div>
+          <p class="microcopy">100 cents = 1 semitono. Usa audífonos o volumen moderado.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BASES -->
+    <section id="bases" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">3 · Prepara</p>
+        <h2>Las bases que hacen aparecer el vibrato</h2>
+        <p>Si alguna de estas falla, el vibrato no llega o llega con tensión. Revísalas antes de cada práctica.</p>
+      </div>
+
+      <div class="cards three">
+        <article class="card base">
+          <span class="base-icon" style="--c: var(--azul-mozart)">1</span>
+          <h3>Respiración y apoyo</h3>
+          <p>Inhalación baja y silenciosa (costillas y abdomen se expanden). Al cantar, el aire sale <strong>constante</strong>, sin empujones.</p>
+        </article>
+        <article class="card base">
+          <span class="base-icon" style="--c: var(--violeta-vivaldi)">2</span>
+          <h3>Libertad corporal</h3>
+          <p>Mandíbula suelta, lengua apoyada detrás de los dientes de abajo, cuello largo, hombros abajo. Lo que se tensa, frena la oscilación.</p>
+        </article>
+        <article class="card base">
+          <span class="base-icon" style="--c: var(--magenta-brahms)">3</span>
+          <h3>Nota recta estable</h3>
+          <p>Poder sostener una nota <strong>sin vibrato</strong>, afinada y pareja, es la plataforma. El vibrato se construye encima de eso.</p>
+        </article>
+      </div>
+
+      <div class="checklist-card">
+        <h3>Chequeo de 30 segundos antes de cantar</h3>
+        <div class="pre-check" id="preCheck">
+          <label><input type="checkbox" /> Estoy de pie o sentado erguido, con el cuello libre.</label>
+          <label><input type="checkbox" /> Mi mandíbula cae suelta (prueba abrir con un “bostezo” suave).</label>
+          <label><input type="checkbox" /> Tomé agua y mi voz no está cansada.</label>
+          <label><input type="checkbox" /> Voy a cantar en un rango y volumen cómodos.</label>
+        </div>
+        <p class="microcopy" id="preCheckMsg">Marca los cuatro y empieza.</p>
+      </div>
+    </section>
+
+    <!-- PRÁCTICA -->
+    <section id="practica" class="section tinted">
+      <div class="section-heading">
+        <p class="eyebrow">4 · Practica</p>
+        <h2>Ejercicios guiados</h2>
+        <p>
+          Hazlos en orden: van de lo más básico a la aplicación musical. Cada uno tiene una <strong>guía sonora</strong>
+          que puedes imitar, temporizador y una forma de saber si lo estás logrando. Tu progreso se guarda en este navegador.
+        </p>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-bar"><div id="progressFill"></div></div>
+        <span id="progressText">0 de 8 ejercicios completados</span>
+      </div>
+
+      <div class="practice-layout">
+        <aside class="exercise-panel">
+          <div id="exerciseList" class="exercise-list"></div>
+        </aside>
+
+        <section class="workbench">
+          <div class="current-exercise">
+            <div class="ex-head">
+              <p class="eyebrow" id="exerciseTag">Ejercicio 1</p>
+              <span class="level" id="exerciseLevel">Base</span>
+            </div>
+            <h3 id="exerciseTitle"></h3>
+            <p id="exerciseDescription" class="ex-desc"></p>
+            <div class="ex-cols">
+              <div>
+                <h4>Paso a paso</h4>
+                <ol id="exerciseSteps" class="steps"></ol>
+              </div>
+              <div>
+                <h4>¿Cómo sé que va bien?</h4>
+                <p id="exerciseSuccess" class="success-box"></p>
+                <h4>Cuidado con</h4>
+                <p id="exerciseMistake" class="mistake-box"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="controls-grid">
+            <div class="control-box">
+              <span class="control-label">Guía sonora</span>
+              <p class="microcopy" id="guideText">Escucha e imita.</p>
+              <div class="note-picker">
+                <select id="noteSelect" class="note-select" aria-label="Nota de la guía"></select>
+                <button class="button primary" id="guideBtn">▶ Guía</button>
+              </div>
+              <label class="range-label">Volumen
+                <input id="toneVolume" type="range" min="0" max="0.5" step="0.01" value="0.16" />
+              </label>
+            </div>
+
+            <div class="control-box timer-box">
+              <span class="control-label">Temporizador</span>
+              <div class="timer" id="timerDisplay">00:30</div>
+              <div class="button-row">
+                <button class="button primary" id="startTimerBtn">Iniciar</button>
+                <button class="button secondary" id="resetTimerBtn">Reiniciar</button>
+              </div>
+            </div>
+
+            <div class="control-box">
+              <span class="control-label">Metrónomo</span>
+              <div class="metronome-row">
+                <input id="bpmInput" type="number" min="40" max="180" value="72" aria-label="BPM" />
+                <button class="button secondary" id="metronomeBtn">Iniciar</button>
+              </div>
+              <p class="microcopy">Para los ejercicios de pulsos: sube el BPM poco a poco.</p>
+            </div>
+          </div>
+
+          <div class="ex-footer">
+            <button class="button secondary" id="prevExBtn">← Anterior</button>
+            <button class="button done" id="doneBtn">✓ Marcar como hecho</button>
+            <button class="button secondary" id="nextExBtn">Siguiente →</button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- MEDIDOR -->
+    <section id="medidor" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">5 · Mide</p>
+        <h2>Medidor de vibrato</h2>
+        <p>
+          Activa el micrófono y sostén una nota de 4 a 6 segundos en una vocal abierta (“a”, “o”).
+          Verás tu afinación en vivo, la velocidad y la amplitud de tu vibrato. Es una medición aproximada:
+          úsala como espejo, no como juez. Tu oído y tu sensación corporal mandan.
+        </p>
+      </div>
+
+      <div class="analyzer-grid">
+        <div class="analyzer-card main-meter">
+          <div class="meter-head">
+            <span class="control-label">Afinación detectada</span>
+            <button class="button primary" id="micBtn">🎤 Activar micrófono</button>
+          </div>
+          <div class="pitch-display">
+            <span id="noteName">--</span>
+            <strong id="freqDisplay">-- Hz</strong>
+          </div>
+          <div class="tuner">
+            <span class="tuner-tag low">bajo</span>
+            <div class="tuner-line"></div>
+            <div id="tunerNeedle" class="needle"></div>
+            <span class="tuner-tag high">alto</span>
+          </div>
+          <p id="tunerHint" class="hint">Canta una nota sostenida y relajada.</p>
+          <canvas id="pitchCanvas" width="960" height="280" aria-label="Gráfica de afinación en el tiempo"></canvas>
+          <p class="microcopy">La franja sombreada es la zona de amplitud sana (±20 a ±100 cents) alrededor de tu nota central.</p>
+        </div>
+
+        <div class="analyzer-card stats-panel">
+          <div class="stat">
+            <span>Velocidad</span>
+            <strong id="rateStat">-- Hz</strong>
+            <div class="zone"><div class="zone-ok" style="left:45%;width:25%"></div><i id="rateMark"></i></div>
+            <small>Ideal: 4,5–7,5 Hz</small>
+          </div>
+          <div class="stat">
+            <span>Amplitud</span>
+            <strong id="depthStat">-- cents</strong>
+            <div class="zone"><div class="zone-ok" style="left:13%;width:54%"></div><i id="depthMark"></i></div>
+            <small>Ideal: 20–100 cents</small>
+          </div>
+          <div class="stat">
+            <span>Estabilidad del centro</span>
+            <strong id="stabilityStat">--</strong>
+          </div>
+          <div class="stat feedback">
+            <span>Consejo</span>
+            <strong id="feedbackStat">Activa el micrófono para empezar.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLAN -->
+    <section id="plan" class="section tinted">
+      <div class="section-heading">
+        <p class="eyebrow">Ruta de 4 semanas</p>
+        <h2>Plan de práctica</h2>
+        <p>10 a 15 minutos al día, 5 días por semana. Mejor poco y frecuente que mucho y de vez en cuando.</p>
+      </div>
+      <div class="weeks">
+        <article class="week"><span>Semana 1</span><h3>Bases</h3><p>Ejercicios 1 y 2. Respiración, liberar tensión y notas rectas estables.</p></article>
+        <article class="week"><span>Semana 2</span><h3>Oído y pulsos</h3><p>Ejercicios 2, 3 y 4. Pulsos lentos con metrónomo, de 60 a 90 BPM.</p></article>
+        <article class="week"><span>Semana 3</span><h3>Liberar el vibrato</h3><p>Ejercicios 4, 5 y 6. Pasar de pulso a oscilación y dejarla aparecer al final.</p></article>
+        <article class="week"><span>Semana 4</span><h3>Música</h3><p>Ejercicios 6, 7 y 8. Control recto/vibrato y aplicación en frases y canciones.</p></article>
+      </div>
+
+      <h3 class="sub-title">Rutina diaria sugerida (12 min)</h3>
+      <div class="routine">
+        <div><strong>2 min</strong><span>Respiración y soltar cuello, mandíbula y lengua.</span></div>
+        <div><strong>2 min</strong><span>Lip trill o sirenas suaves para calentar.</span></div>
+        <div><strong>3 min</strong><span>Notas rectas estables en registro cómodo.</span></div>
+        <div><strong>3 min</strong><span>El ejercicio de vibrato de tu semana.</span></div>
+        <div><strong>2 min</strong><span>Graba una frase y escúchate con el medidor.</span></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Dudas frecuentes</p>
+        <h2>Preguntas comunes</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>¿Todo el mundo puede tener vibrato?</summary>
+          <p>Sí, en la gran mayoría de casos. Es una respuesta natural de una voz libre y bien apoyada. A algunas personas les aparece pronto; a otras les toma semanas o meses de liberar tensiones. Ambas cosas son normales.</p>
+        </details>
+        <details>
+          <summary>¿Cuánto tiempo tarda en aparecer?</summary>
+          <p>Depende de tu punto de partida. Con práctica regular, muchas personas notan los primeros destellos de vibrato en 2 a 6 semanas, normalmente al final de notas largas y en registro cómodo.</p>
+        </details>
+        <details>
+          <summary>¿Debo usar vibrato en todas las notas?</summary>
+          <p>No. Es una herramienta expresiva. En pop, folk o música coral a menudo se usa poco o solo al final de las frases; en lírica es más constante. Lo importante es poder elegir.</p>
+        </details>
+        <details>
+          <summary>Mi vibrato es muy rápido o muy lento, ¿qué hago?</summary>
+          <p><strong>Muy rápido</strong> (trémolo): casi siempre es tensión en garganta, lengua o mandíbula; baja el volumen, suelta y vuelve a los ejercicios 1 y 2. <strong>Muy lento y ancho</strong> (bamboleo): suele ser exceso de presión de aire o fatiga; canta más suave, descansa y trabaja notas rectas estables.</p>
+        </details>
+        <details>
+          <summary>¿Mover la mandíbula “para ayudar” está mal?</summary>
+          <p>Como exploración inicial puede ayudarte a sentir la oscilación, pero no debe quedarse. El vibrato real nace en la laringe; la mandíbula y la lengua deben permanecer quietas y sueltas.</p>
+        </details>
+        <details>
+          <summary>¿Cuándo debo parar?</summary>
+          <p>Si sientes dolor, ardor, picazón persistente, ronquera o fatiga, detente y descansa. Si dura varios días, consulta a tu docente de canto o a un especialista en voz (otorrino o fonoaudiólogo).</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="logo.png" alt="Musicala" />
+    <p>Material académico de canto · Musicala</p>
+    <p class="microcopy">Practica con calma, a volumen cómodo y escuchando a tu cuerpo. Esta guía complementa, no reemplaza, tu clase con tu docente.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
